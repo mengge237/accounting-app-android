@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 阴影和叠加 ==================== -->
+    <color name="shadow">#1A000000</color>
+    <color name="shadow_light">#0A000000</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40FFFFFF</color>
+
+    <!-- ==================== 导航和标签 ==================== -->
+    <color name="nav_active">#2196F3</color>
+    <color name="nav_inactive">#9E9E9E</color>
+    <color name="tab_selected">#2196F3</color>
+    <color name="tab_unselected">#9E9E9E</color>
+
+    <!-- ==================== 输入框和表单 ==================== -->
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#E0E0E0</color>
+    <color name="input_focused">#2196F3</color>
+    <color name="input_error">#F44336</color>
+    <color name="input_label">#757575</color>
+
+    <!-- ==================== 语音输入相关 ==================== -->
+    <color name="voice_button_bg">#2196F3</color>
+    <color name="voice_button_pressed">#1976D2</color>
+    <color name="voice_ripple">#64B5F6</color>
+
+    <!-- ==================== 浮动按钮 ==================== -->
+    <color name="fab_primary">#2196F3</color>
+    <color name="fab_secondary">#FF4081</color>
+    <color name="fab_accent">#FF9800</color>
+</resources>

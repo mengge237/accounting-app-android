@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 菜谱模块 ==================== -->
+    <string name="recipe_no_description">暂无描述</string>
+    <string name="recipe_time_minutes">%d分钟</string>
+    <string name="recipe_difficulty_easy">简单</string>
+    <string name="recipe_difficulty_medium">中等</string>
+    <string name="recipe_difficulty_hard">困难</string>
+    <string name="recipe_cooking_time">烹饪时间: %d分钟</string>
+    <string name="recipe_difficulty_label">难度: %s</string>
+    <string name="recipe_ingredients_title">📝 食材</string>
+    <string name="recipe_steps_title">👨‍🍳 步骤</string>
+    <string name="recipe_no_ingredients">暂无食材信息</string>
+    <string name="recipe_no_steps">暂无步骤信息</string>
+    <string name="recipe_add_success">添加成功</string>
+    <string name="recipe_add_failed">添加失败</string>
+    <string name="recipe_delete_success">删除成功</string>
+    <string name="recipe_delete_failed">删除失败</string>
+    <string name="recipe_favorite_success">已收藏</string>
+    <string name="recipe_unfavorite_success">已取消收藏</string>
+    <string name="recipe_cannot_delete_default">系统预设菜谱不能删除</string>
+    <string name="recipe_empty_list">暂无菜谱</string>
+    <string name="recipe_empty_favorites">暂无收藏菜谱</string>
+    <string name="recipe_confirm_delete">确定要删除 "%s" 吗？</string>
+    <string name="recipe_delete_title">删除菜谱</string>
+    <string name="recipe_add_title">添加菜谱</string>
+    <string name="recipe_detail_title">菜谱详情</string>
+    <string name="recipe_name_hint">菜谱名称 *</string>
+    <string name="recipe_description_hint">简介</string>
+    <string name="recipe_ingredients_hint">食材（每行一个）</string>
+    <string name="recipe_steps_hint">步骤（每行一个）</string>
+    <string name="recipe_cook_time_hint">烹饪时间（分钟）</string>
+    <string name="recipe_add_hint">提示：食材和步骤每行一项，自动解析</string>
+    <string name="recipe_chip_all">全部</string>
+    <string name="recipe_chip_favorite">收藏</string>
+    <string name="search_recipe_hint">🔍 搜索菜谱...</string>
+    <string name="tab_all_recipes">🍽️ 全部菜谱</string>
+    <string name="tab_my_recipes">📝 我的菜谱</string>
+    <string name="tab_favorite">❤️ 我的收藏</string>
+    <string name="hot_cuisines">📌 热门菜系</string>
+    <string name="no_recipes">暂无菜谱</string>
+    <string name="add_recipe">添加菜谱</string>
+    <string name="operation_in_progress">操作中，请稍后</string>
+
+    <!-- 我的菜谱相关 -->
+    <string name="my_recipes_empty">暂无自定义菜谱\n点击+添加新菜谱</string>
+    <string name="image_selected">图片已选择</string>
+    <string name="recipe_select_image">选择封面图片</string>
+    <string name="recipe_image_preview">菜谱图片预览</string>
+    <string name="enter_ingredient">请输入食材</string>
+    <string name="enter_step">请输入步骤</string>
+    <string name="step_input_hint">输入步骤，如：将土豆切块</string>
+    <string name="add_step">添加步骤</string>
+    <string name="add_ingredients_hint">请至少添加一种食材</string>
+    <string name="add_steps_hint">请至少添加一个步骤</string>
+    <string name="default_recipe_desc">美味的%s</string>
+    <string name="cook_time">烹饪时间</string>
+    <string name="minutes">分钟</string>
+    <string name="difficulty">难度</string>
+    <string name="ingredients">食材</string>
+    <string name="steps">步骤</string>
+    <string name="recipe_search_no_result">未找到 "%s" 的相关菜谱</string>
+</resources>

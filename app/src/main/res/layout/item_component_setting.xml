@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:elevation="2dp"
+    android:layout_margin="4dp">
+
+    <!-- 拖拽图标 -->
+    <ImageView
+        android:id="@+id/iv_drag"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        app:tint="#999999"
+        android:padding="4dp"
+        android:contentDescription="@string/drag_icon_desc" />
+
+    <!-- 组件名称 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_component_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:background="?android:attr/selectableItemBackground"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/tv_component_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+
+    <!-- 启用/禁用开关 -->
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp" />
+
+    <!-- 删除按钮（隐藏，因为不需要删除组件） -->
+    <Button
+        android:id="@+id/btn_delete_component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:visibility="gone" />
+
+</LinearLayout>

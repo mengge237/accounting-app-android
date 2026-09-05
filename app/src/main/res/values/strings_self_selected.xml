@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 页面标题 -->
+    <string name="self_selected_title">股票自选</string>
+
+    <!-- 空状态提示 -->
+    <string name="self_selected_empty">暂无自选项目\n点击右下角+号添加</string>
+
+    <!-- 列表项标签 -->
+    <string name="self_selected_buy">买入: %.2f</string>
+    <string name="self_selected_current">现价: %.2f</string>
+    <string name="self_selected_remark_prefix">备注: </string>
+    <string name="self_selected_time_prefix">添加于: </string>
+    <string name="self_selected_change_percent">%+.2f%%</string>
+    <string name="self_selected_change_amount">(%+.2f)</string>
+
+    <!-- 默认值 -->
+    <string name="self_selected_default_code">000001</string>
+    <string name="self_selected_default_name">上证指数</string>
+    <string name="self_selected_default_type">股票</string>
+    <string name="self_selected_default_price">0.00</string>
+    <string name="self_selected_default_change">+0.00%</string>
+    <string name="self_selected_default_change_amount">(+0.00)</string>
+    <string name="self_selected_default_time">01-01 12:00</string>
+
+    <!-- 详情页面 -->
+    <string name="self_selected_detail_buy_price">买入价: %.2f</string>
+    <string name="self_selected_detail_current_price">当前价: %.2f</string>
+
+    <!-- 弹窗标签 -->
+    <string name="self_selected_code_hint">代码 *</string>
+    <string name="self_selected_name_hint">名称 *</string>
+    <string name="self_selected_type_label">类型</string>
+    <string name="self_selected_buy_price_label">买入价</string>
+    <string name="self_selected_current_price_label">当前价</string>
+    <string name="self_selected_remark_hint">备注（可选）</string>
+    <string name="self_selected_price_hint">0.00</string>
+    <string name="self_selected_new_price_hint">输入新价格</string>
+
+    <!-- 按钮文字 -->
+    <string name="self_selected_confirm">确定</string>
+    <string name="self_selected_cancel">取消</string>
+    <string name="self_selected_delete">删除</string>
+    <string name="self_selected_update_price">更新价格</string>
+    <string name="self_selected_confirm_update">确认更新</string>
+    <string name="self_selected_close">关闭</string>
+
+    <!-- 对话框标题 -->
+    <string name="self_selected_add_title">添加自选</string>
+    <string name="self_selected_delete_confirm_title">确认删除</string>
+    <string name="self_selected_delete_confirm_message">确定要删除「%s」吗？</string>
+
+    <!-- 提示信息 -->
+    <string name="self_selected_code_exists">该股票代码已存在</string>
+    <string name="self_selected_add_success">添加成功</string>
+    <string name="self_selected_add_failed">添加失败</string>
+    <string name="self_selected_delete_success">删除成功</string>
+    <string name="self_selected_delete_failed">删除失败</string>
+    <string name="self_selected_update_success">更新成功</string>
+    <string name="self_selected_update_failed">更新失败</string>
+    <string name="self_selected_enter_code">请输入代码</string>
+    <string name="self_selected_enter_name">请输入名称</string>
+    <string name="self_selected_enter_price">请输入当前价格</string>
+    <string name="self_selected_enter_valid_number">请输入有效的数字</string>
+
+    <!-- 类型选项 -->
+    <string-array name="self_selected_types">
+        <item>股票</item>
+        <item>基金</item>
+        <item>债券</item>
+        <item>期货</item>
+        <item>外汇</item>
+    </string-array>
+</resources>

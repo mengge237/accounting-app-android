@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 导航菜单ID ==================== -->
+    <!-- 主功能模块ID -->
+    <item name="nav_accounting" type="id"/>
+    <item name="nav_statistics" type="id"/>
+    <item name="nav_records" type="id"/>
+    <item name="nav_ledger_manage" type="id"/>
+    <item name="nav_community" type="id"/>
+    <item name="nav_my_recipes" type="id"/>
+    <item name="nav_schedule" type="id"/>
+    <item name="nav_voice" type="id"/>
+    <item name="nav_notes" type="id"/>
+    <item name="nav_music" type="id"/>
+
+    <!-- 工具模块ID -->
+    <item name="nav_settings" type="id"/>
+    <item name="nav_component_settings" type="id"/>
+    <item name="nav_theme_settings" type="id"/>
+    <item name="nav_export" type="id"/>
+
+    <!-- 其他模块ID -->
+    <item name="nav_about" type="id"/>
+    <item name="nav_logout" type="id"/>
+
+    <!-- ==================== 动态布局组件ID ==================== -->
+    <item name="amount" type="id"/>
+    <item name="note" type="id"/>
+    <item name="type" type="id"/>
+    <item name="date" type="id"/>
+    <item name="category" type="id"/>
+    <item name="tag" type="id"/>
+    <item name="datetime" type="id"/>
+    <item name="hide_default_recipes" type="id"/>
+    <item name="switch_music" type="id"/>  <!-- 修复：移除多余的文本 -->
+</resources>

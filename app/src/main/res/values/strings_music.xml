@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 音乐播放器 -->
+
+    <!-- 音乐播放器通用字符串 -->
+    <string name="music_not_playing">未播放</string>
+    <string name="music_unknown_title">未知歌曲</string>
+    <string name="music_unknown_artist">未知艺术家</string>
+    <string name="music_builtin_artist">内置音乐</string>
+    <string name="music_time_zero">00:00</string>
+
+    <!-- 控制按钮 -->
+    <string name="music_play">播放</string>
+    <string name="music_pause">暂停</string>
+    <string name="music_previous">上一首</string>
+    <string name="music_next">下一首</string>
+    <string name="music_stop">停止</string>
+    <string name="music_shuffle">随机播放</string>
+    <string name="music_repeat">循环播放</string>
+    <string name="music_play_pause">播放/暂停</string>
+
+    <!-- 列表 -->
+    <string name="music_playlist">播放列表</string>
+    <string name="music_song_count">共0首</string>
+
+    <!-- 通知 -->
+    <string name="music_notification_channel_name">音乐播放器</string>
+    <string name="music_notification_channel_description">音乐播放控制</string>
+
+    <!-- 描述 -->
+    <string name="music_cover_description">音乐专辑封面</string>
+    <string name="music_playing_indicator">正在播放</string>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_login_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:contentDescription="@string/app_logo_desc"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_login_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_login_logo">
+
+        <!-- 用户名输入区域 -->
+        <LinearLayout
+            android:id="@+id/ll_username_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tv_username_label"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/username_label"
+                android:minHeight="48dp"
+                android:gravity="center_vertical"/>
+
+            <EditText
+                android:id="@+id/et_username"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="48dp"
+                android:maxLength="15"
+                android:hint="@string/username_hint"
+                android:inputType="textVisiblePassword"
+                android:autofillHints="username"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"/>
+        </LinearLayout>
+
+        <!-- 密码输入区域（带显示/隐藏按钮） -->
+        <LinearLayout
+            android:id="@+id/ll_password_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tv_password_label"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/password_label"
+                android:minHeight="48dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:minHeight="48dp"
+                    android:inputType="textPassword"
+                    android:autofillHints="password"
+                    android:hint="@string/password_hint"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_toggle_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toggle_password_icon"
+                    android:background="@android:color/transparent"
+                    android:textSize="20sp"
+                    android:contentDescription="@string/toggle_password_content_description" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 记住密码复选框 -->
+        <CheckBox
+            android:id="@+id/cb_remember_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember_password"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 登录按钮 -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/login_button"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+
+        <!-- 底部操作链接 -->
+        <LinearLayout
+            android:id="@+id/ll_login_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+            <TextView
+                android:id="@+id/tv_register_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/register_link"/>
+
+            <TextView
+                android:id="@+id/tv_divider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:gravity="center_vertical"
+                android:text="@string/divider"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tv_reset_password_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/reset_password_link"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

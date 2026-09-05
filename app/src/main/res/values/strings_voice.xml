@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 语音模块 ==================== -->
+    <string name="volume_format">实时音量：%d</string>
+    <string name="volume_stopped">实时音量：已停止</string>
+    <string name="volume_failed">无法启动音量监测</string>
+    <string name="volume_init_failed">音量监测初始化失败</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 记录模块 ==================== -->
+    <string name="record_count_format" formatted="false">共 %d 条记录</string>
+    <string name="total_amount_format" formatted="false">收入: ¥%.2f  支出: ¥%.2f</string>
+    <string name="records_list_title">记账记录</string>
+    <string name="empty_records_message">暂无记账记录\n\n点击底部导航的「记账」开始记录</string>
+    <string name="records_title">记账记录</string>
+    <string name="empty_records_text">暂无记账记录</string>
+    <string name="empty_hint">暂无记录，点击上方按钮添加</string>
+    <string name="records_no_note">无备注</string>
+    <string name="dot_separator"> · </string>
+    <string name="record_detail_title">记录详情</string>
+    <string name="record_detail_type" formatted="false">类型：%s</string>
+    <string name="record_detail_category" formatted="false">分类：%s</string>
+    <string name="record_detail_amount" formatted="false">金额：¥%s</string>
+    <string name="record_detail_note" formatted="false">备注：%s</string>
+    <string name="record_detail_date" formatted="false">日期：%s</string>
+
+    <!-- ==================== 账本模块 ==================== -->
+    <string name="ledger_manage_title">账本管理</string>
+    <string name="add_ledger">+ 新建账本</string>
+    <string name="my_ledgers">我的账本</string>
+    <string name="empty_ledgers">暂无账本\n点击「新建账本」创建</string>
+    <string name="current_ledger">当前账本：</string>
+    <string name="default_ledger_name">默认账本</string>
+    <string name="ledger_switch_hint">切换账本</string>
+    <string name="ledger_current_mark">✓ 当前</string>
+    <string name="create_ledger">创建账本</string>
+    <string name="edit_ledger">编辑账本</string>
+    <string name="delete_ledger">删除账本</string>
+    <string name="ledger_name_hint">账本名称</string>
+    <string name="ledger_create_success">账本创建成功</string>
+    <string name="ledger_create_failed">创建失败</string>
+    <string name="ledger_update_success">账本更新成功</string>
+    <string name="ledger_update_failed">更新失败</string>
+    <string name="ledger_delete_success">账本已删除</string>
+    <string name="ledger_delete_failed">删除失败</string>
+    <string name="ledger_switch_success" formatted="false">已切换到: %s</string>
+    <string name="ledger_name_empty">请输入账本名称</string>
+    <string name="ledger_default_cannot_delete">默认账本不能删除</string>
+    <string name="ledger_delete_confirm" formatted="false">确定要删除账本 "%s" 吗？该账本下的所有记账记录也会被删除。</string>
+    <string name="select_color">选择颜色</string>
+
+    <!-- ==================== 当前账本为空提示 ==================== -->
+    <string name="current_ledger_empty_records">当前账本暂无记账记录\n\n点击底部导航的「记账」开始记录</string>
+    <string name="please_login_first">请先登录</string>
+</resources>

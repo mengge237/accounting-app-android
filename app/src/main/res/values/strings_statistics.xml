@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 统计图表模块 ==================== -->
+    <string name="statistics_title">统计图表</string>
+    <string name="statistics_tab_overview">概览</string>
+    <string name="statistics_tab_category">分类</string>
+    <string name="statistics_tab_month">月度</string>
+    <string name="statistics_total_income">总收入</string>
+    <string name="statistics_total_expense">总支出</string>
+    <string name="statistics_balance">结余</string>
+    <string name="statistics_monthly_summary">本月汇总</string>
+    <string name="statistics_no_data">暂无统计数据</string>
+    <string name="statistics_category_expense">支出分类</string>
+    <string name="statistics_category_income">收入分类</string>
+    <string name="statistics_month_trend">月度趋势</string>
+    <string name="statistics_amount_format" formatted="false">¥%.2f</string>
+    <string name="statistics_percent_format" formatted="false">%.1f%%</string>
+    <string name="statistics_current_month">本月</string>
+    <string name="statistics_last_month">上月</string>
+    <string name="statistics_select_month">选择月份</string>
+
+    <!-- 统计界面UI控件 -->
+    <string name="switch_mode_circle">饼图</string>
+    <string name="switch_mode_tab">分类</string>
+    <string name="arrow_right">▶</string>
+    <string name="arrow_down">▼</string>
+    <string name="income_expense_stats">收支统计</string>
+    <string name="category_stats">分类统计</string>
+    <string name="no_expense_data">暂无支出数据</string>
+    <string name="no_data_text">暂无数据</string>
+    <string name="total_expense_title">总支出</string>
+    <string name="total_text">总计</string>
+
+    <!-- 图表类型选择 -->
+    <string name="chart_type_label">图表类型</string>
+    <string name="pie_chart_label">饼图</string>
+    <string name="bar_income_expense_label">收支对比</string>
+    <string name="bar_category_label">分类条形图</string>
+
+    <!-- 统计页面布局相关 -->
+    <string name="date_range_title">日期范围</string>
+    <string name="sample_date_start">开始日期</string>
+    <string name="sample_date_end">结束日期</string>
+    <string name="stats_title">统计数据</string>
+    <string name="sample_amount_zero">¥0.00</string>
+    <string name="expense_detail_title">支出明细</string>
+
+</resources>

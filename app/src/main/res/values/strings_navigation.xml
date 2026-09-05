@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 抽屉导航 ==================== -->
+    <string name="open_drawer">打开菜单</string>
+    <string name="close_drawer">关闭菜单</string>
+    <string name="nav_accounting">记账</string>
+    <string name="nav_statistics">统计图表</string>
+    <string name="nav_records">记录列表</string>
+    <string name="nav_voice">语音助手</string>
+    <string name="nav_layout_settings">布局设置</string>
+    <string name="nav_export">导出数据</string>
+    <string name="nav_theme">主题设置</string>
+    <string name="nav_about">关于</string>
+    <string name="nav_logout">退出登录</string>
+    <string name="nav_recipe">菜谱大全</string>
+    <string name="nav_community">美食社区</string>
+    <string name="nav_my_recipes">我的菜谱</string>
+    <string name="nav_schedule">日程管理</string>
+    <string name="nav_ledger_manage">账本管理</string>
+    <string name="tools">工具</string>
+    <string name="nav_settings">模块设置</string>
+    <string name="module_self_selected">股票自选</string>
+
+    <!-- 底部导航栏 -->
+    <string name="bottom_nav_accounting">记账</string>
+    <string name="bottom_nav_statistics">统计</string>
+    <string name="bottom_nav_community">美食社区</string>
+    <string name="bottom_nav_schedule">日程</string>
+    <string name="bottom_nav_music">音乐</string>
+    <string name="bottom_nav_profile">我的</string>
+
+    <!-- 页面标题 -->
+    <string name="title_accounting">记账</string>
+    <string name="title_statistics">统计图表</string>
+    <string name="title_community">美食社区</string>
+    <string name="title_schedule">日程管理</string>
+    <string name="title_settings">系统设置</string>
+    <string name="title_ledger_manage">账本管理</string>
+    <string name="title_records">记录列表</string>
+    <string name="title_notes">我的便签</string>
+    <string name="title_self_selected">股票自选</string>
+    <string name="title_my_recipes">我的菜谱</string>
+    <string name="title_voice">语音调试助手</string>
+
+    <!-- 导航模式设置 -->
+    <string name="nav_mode_title">导航模式</string>
+    <string name="nav_mode_desc">选择应用的导航方式，影响侧边栏和底部导航栏的显示</string>
+    <string name="nav_mode_sidebar">仅侧边栏</string>
+    <string name="nav_mode_bottom">仅底部导航</string>
+    <string name="nav_mode_both">两者都显示</string>
+    <string name="nav_mode_sidebar_desc">通过左上角菜单按钮打开侧边栏导航</string>
+    <string name="nav_mode_bottom_desc">通过屏幕底部的导航栏快速切换功能</string>
+    <string name="nav_mode_both_desc">同时显示侧边栏和底部导航，灵活切换</string>
+
+    <!-- 提示信息 -->
+    <string name="hint_search_keyword">请输入搜索关键词</string>
+    <string name="hint_enter_recipe_page">请先进入菜谱页面</string>
+    <string name="hint_enter_recipe_name">请输入菜谱名称</string>
+
+    <!-- 关于对话框 -->
+    <string name="about_message">💰 记账本 v1.0.0
+
+📱 功能特点：
+• 智能语音记账
+• 多账本管理
+• 收支统计图表
+• 美食社区分享
+• 日程管理提醒
+• 音乐播放器
+• 股票自选行情
+
+🛠️ 技术支持：
+• Vosk 语音识别
+• Material Design 3
+• 本地数据存储
+
+📧 反馈邮箱：support@example.com
+
+© 2026 记账本团队</string>
+</resources>

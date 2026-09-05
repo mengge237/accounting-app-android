@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 图表颜色 ==================== -->
+    <color name="chart_income">#4CAF50</color>
+    <color name="chart_expense">#F44336</color>
+    <color name="chart_balance">#2196F3</color>
+    <color name="chart_category_1">#FF9800</color>
+    <color name="chart_category_2">#9C27B0</color>
+    <color name="chart_category_3">#00BCD4</color>
+    <color name="chart_category_4">#FF5722</color>
+    <color name="chart_category_5">#8BC34A</color>
+    <color name="chart_category_6">#E91E63</color>
+</resources>

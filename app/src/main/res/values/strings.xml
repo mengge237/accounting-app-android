@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================
+            主字符串文件 - strings.xml
+            只放置应用级别的核心字符串，避免重复
+            其他模块字符串请放在对应的文件中：
+            - 记账相关：strings_accounting.xml
+            - 设置相关：strings_settings.xml
+            - 菜谱相关：strings_recipe.xml
+            - 日程相关：strings_schedule.xml
+            - 语音相关：strings_voice.xml
+            - 组件管理：strings_component.xml
+            - 错误提示：strings_error.xml
+            - 登录注册：strings_login.xml
+            - 统计图表：strings_statistics.xml
+            - 记录列表：strings_records.xml
+            - 导航菜单：strings_navigation.xml
+       ============================================ -->
+    <string name="app_name">记账本</string>
+
+    <!-- 通用短词（避免各模块重复定义） -->
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="add">添加</string>
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="confirm">确定</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="other">其他</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="note">备注</string>
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="priority">优先级</string>
+    <string name="type">类型</string>
+    <string name="status">状态</string>
+    <string name="reminder">提醒</string>
+
+    <!-- 通用字段 -->
+    <string name="field_name">字段名称</string>
+    <string name="field_type">类型</string>
+
+    <!-- 通用消息 -->
+    <string name="loading">加载中...</string>
+    <string name="load_failed">加载失败</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_failed">删除失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="operation_success">操作成功</string>
+    <string name="operation_failed">操作失败</string>
+    <string name="login_first">请先登录</string>
+    <string name="network_error_format">网络错误: %s</string>
+
+    <!-- 通用提示 -->
+    <string name="edit_developing">编辑功能开发中</string>
+    <string name="please_input_title">请输入标题</string>
+    <string name="please_select_date">请选择日期</string>
+    <string name="select_date">选择日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="not_selected">未选择</string>
+
+    <!-- 通用时间 -->
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+    <string name="yesterday">昨天</string>
+    <string name="this_week">本周</string>
+    <string name="next_week">下周</string>
+    <string name="this_month">本月</string>
+    <string name="last_month">上月</string>
+    <string name="this_year">今年</string>
+    <string name="prev_day">◀</string>
+    <string name="next_day">▶</string>
+    <string name="back_to_today">返回今天</string>
+    <string name="date_range">日期范围</string>
+    <string name="to">至</string>
+    <string name="select">选择</string>
+
+    <!-- 通用状态 -->
+    <string name="completed">已完成</string>
+    <string name="pending">待完成</string>
+    <string name="mark_complete">✓ 标记完成</string>
+    <string name="completed_status">✓ 已完成</string>
+
+    <!-- 通用优先级 -->
+    <string name="priority_low">低</string>
+    <string name="priority_medium">中</string>
+    <string name="priority_high">高</string>
+    <string name="low_priority">低优先级</string>
+    <string name="medium_priority">中优先级</string>
+    <string name="high_priority">高优先级</string>
+
+    <!-- 通用提醒选项 -->
+    <string name="reminder_none">不提醒</string>
+    <string name="reminder_on_time">准时</string>
+    <string name="reminder_5min">提前5分钟</string>
+    <string name="reminder_10min">提前10分钟</string>
+    <string name="reminder_15min">提前15分钟</string>
+    <string name="reminder_30min">提前30分钟</string>
+    <string name="reminder_1hour">提前1小时</string>
+    <string name="reminder_2hour">提前2小时</string>
+    <string name="reminder_1day">提前1天</string>
+
+    <!-- 通用内容占位 -->
+    <string name="no_content_text">无内容</string>
+    <string name="no_note_text">无备注</string>
+    <string name="no_data">暂无数据，请先添加记录</string>
+    <string name="empty_data">暂无数据</string>
+
+    <!-- 删除确认 -->
+    <string name="delete_confirm_title">删除日程</string>
+    <string name="delete_confirm_message">确定要删除 "%s" 吗？</string>
+</resources>

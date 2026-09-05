@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="component_types">
+        <item>text</item>
+        <item>number</item>
+        <item>select</item>
+        <item>datetime</item>
+        <item>tag</item>
+    </string-array>
+
+    <string-array name="difficulty_levels">
+        <item>简单</item>
+        <item>中等</item>
+        <item>困难</item>
+    </string-array>
+
+    <string-array name="common_ingredients">
+        <item>土豆</item>
+        <item>番茄</item>
+        <item>鸡蛋</item>
+        <item>猪肉</item>
+        <item>鸡肉</item>
+        <item>牛肉</item>
+        <item>大蒜</item>
+        <item>生姜</item>
+        <item>葱</item>
+        <item>盐</item>
+        <item>糖</item>
+        <item>酱油</item>
+        <item>醋</item>
+        <item>料酒</item>
+        <item>淀粉</item>
+    </string-array>
+</resources>

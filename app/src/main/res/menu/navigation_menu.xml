@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@id/nav_accounting"
+            android:icon="@drawable/ic_currency"
+            android:title="@string/module_accounting" />
+        <item
+            android:id="@id/nav_statistics"
+            android:icon="@drawable/ic_chart"
+            android:title="@string/module_statistics" />
+        <item
+            android:id="@id/nav_records"
+            android:icon="@drawable/ic_list"
+            android:title="@string/module_records" />
+        <item
+            android:id="@id/nav_ledger_manage"
+            android:icon="@drawable/ic_ledger"
+            android:title="@string/module_ledger_manage" />
+        <item
+            android:id="@+id/nav_self_selected"
+            android:icon="@drawable/ic_self_selected"
+            android:title="股票自选" />
+        <item
+            android:id="@id/nav_community"
+            android:icon="@drawable/ic_community"
+            android:title="@string/module_recipe" />
+        <item
+            android:id="@id/nav_notes"
+            android:icon="@drawable/ic_note"
+            android:title="@string/module_notes" />
+        <item
+            android:id="@id/nav_my_recipes"
+            android:icon="@drawable/ic_my_recipes"
+            android:title="@string/module_my_recipes" />
+        <item
+            android:id="@id/nav_schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="@string/module_schedule" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music"
+            android:title="@string/module_music" />
+        <item
+            android:id="@id/nav_voice"
+            android:icon="@drawable/ic_microphone"
+            android:title="@string/module_voice" />
+    </group>
+
+    <item android:title="@string/tools">
+        <menu>
+            <item
+                android:id="@id/nav_component_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/module_component_settings" />
+            <item
+                android:id="@id/nav_export"
+                android:icon="@drawable/ic_export"
+                android:title="@string/module_export" />
+        </menu>
+    </item>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/module_about" />
+            <item
+                android:id="@id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/module_logout" />
+        </menu>
+    </item>
+
+</menu>

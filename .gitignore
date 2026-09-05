@@ -1,0 +1,28 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# 本地工具/上传目录
+/.proxyai
+/.uploads
+*.zip
+/FirstApplication.zip
+
+# 顶层 node 脚手架（误建/本地工具，非 App 源码）
+/node_modules
+/package.json
+/package-lock.json
+/顶层 build 缓存
+/build
+/core/build

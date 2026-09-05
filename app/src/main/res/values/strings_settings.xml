@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 设置模块 ==================== -->
+    <string name="layout_settings_title">自定义记账字段</string>
+    <string name="settings_title">模块设置</string>
+    <string name="cheat_mode_title">🎮 作弊模式</string>
+    <string name="cheat_mode_desc">开启后可随意切换日程完成状态</string>
+    <string name="module_management_title">模块管理</string>
+    <string name="save_settings">保存并返回主页</string>
+    <string name="reset_settings">重置所有设置</string>
+    <string name="settings_section_system">⚙️ 系统设置</string>
+    <string name="settings_section_components">🧩 组件管理</string>
+    <string name="settings_section_app">⚙️ 应用设置</string>
+    <string name="voice_float_ball_title">🗣️ 语音悬浮球</string>
+    <string name="voice_float_ball_desc">在屏幕上显示语音输入悬浮球</string>
+    <string name="voice_main_btn_title">🎤 主界面语音按钮</string>
+    <string name="voice_main_btn_desc">在主界面显示语音输入按钮</string>
+    <string name="accounting_group_title">📊 记账与财务管理</string>
+    <string name="other_group_title">🎨 其他功能</string>
+    <string name="desc_ledger_manage">管理多个账本</string>
+
+    <!-- 模块名称 -->
+    <string name="module_accounting">📝 记账</string>
+    <string name="module_statistics">📊 统计图表</string>
+    <string name="module_records">📋 记录列表</string>
+    <string name="module_voice">🎤 语音助手</string>
+    <string name="module_recipe">🍳 美食社区</string>
+    <string name="module_my_recipes">👨‍🍳 我的菜谱</string>
+    <string name="module_schedule">📅 日程管理</string>
+    <string name="module_notes">📝 我的便签</string>
+    <string name="module_music">🎵 音乐播放器</string>
+    <string name="module_stock">📈 股票自选</string>
+    <string name="module_ledger_manage">📒 账本管理</string>
+    <string name="module_settings">⚙️ 系统设置</string>
+    <string name="module_component_settings">🔧 组件管理</string>
+    <string name="module_theme">🎨 主题设置</string>
+    <string name="module_export">📤 导出数据</string>
+    <string name="module_about">ℹ️ 关于</string>
+    <string name="module_logout">🚪 退出登录</string>
+
+    <!-- 模块描述 -->
+    <string name="desc_accounting">财务管理模块（关闭后统计和记录也会关闭）</string>
+    <string name="desc_statistics">收支统计图表模块</string>
+    <string name="desc_records">查看所有记账记录</string>
+    <string name="desc_voice">语音输入记账功能</string>
+    <string name="desc_recipe">浏览和分享菜谱</string>
+    <string name="desc_my_recipes">管理自己的菜谱</string>
+    <string name="desc_schedule">管理每日日程</string>
+    <string name="desc_music">内置音乐播放器</string>
+    <string name="desc_stock">股票自选行情查看</string>
+    <string name="desc_component_settings">管理应用功能模块的显示与隐藏</string>
+    <string name="desc_theme">切换应用主题</string>
+    <string name="desc_export">导出记账数据</string>
+    <string name="desc_about">应用信息（不可关闭）</string>
+    <string name="desc_logout">退出当前账号（不可关闭）</string>
+    <string name="desc_settings">系统设置（不可关闭）</string>
+    <string name="desc_component_manage">管理应用功能模块的显示与隐藏</string>
+
+    <!-- 作弊模式消息 -->
+    <string name="cheat_mode_enabled">作弊模式已开启\n现在可以随意切换日程完成状态</string>
+    <string name="cheat_mode_disabled">作弊模式已关闭\n日程状态将无法切换</string>
+    <string name="cheat_mode_required">作弊模式未开启，无法切换日程状态\n请在设置中开启作弊模式</string>
+
+    <!-- 模块显示/隐藏消息 -->
+    <string name="module_shown">已显示%s</string>
+    <string name="module_hidden">已隐藏%s</string>
+
+    <!-- 重置对话框 -->
+    <string name="reset_dialog_title">重置设置</string>
+    <string name="reset_dialog_message">确定要重置所有设置为默认值吗？</string>
+    <string name="reset_success">已重置为默认设置</string>
+</resources>

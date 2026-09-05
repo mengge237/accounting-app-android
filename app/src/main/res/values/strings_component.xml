@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 组件管理模块 ==================== -->
+    <string name="component_manage_title">组件管理</string>
+    <string name="component_drag_hint">长按拖动可调整顺序</string>
+    <string name="component_reset_default">重置默认</string>
+    <string name="component_save_exit">保存并退出</string>
+
+    <!-- 对话框标题 -->
+    <string name="component_reset_confirm_title">恢复默认</string>
+    <string name="component_reset_confirm_message">确定要恢复默认组件设置吗？这将重置所有组件的显示状态和顺序。</string>
+    <string name="component_add_title">添加自定义组件</string>
+    <string name="component_rename_title">修改组件名称</string>
+    <string name="component_delete_title">删除组件</string>
+
+    <!-- 提示消息 -->
+    <string name="component_reset_success">已恢复默认设置，请点击保存</string>
+    <string name="component_save_success">组件设置已保存</string>
+    <string name="component_add_success">已添加组件: %s</string>
+    <string name="component_delete_success">已删除组件</string>
+    <string name="component_delete_confirm">确定要删除 "%s" 吗？</string>
+    <string name="component_rename_success">名称已修改</string>
+    <string name="component_name_empty">请输入组件名称</string>
+    <string name="component_name_cannot_empty">名称不能为空</string>
+
+    <!-- 表单字段 -->
+    <string name="component_id_hint">组件ID</string>
+    <string name="component_name_hint">组件名称</string>
+    <string name="component_type_label">组件类型</string>
+
+    <!-- 组件类型显示名称 -->
+    <string name="component_type_number">金额</string>
+    <string name="component_type_text">备注</string>
+    <string name="component_type_select">分类</string>
+    <string name="component_type_datetime">日期时间</string>
+    <string name="component_type_tag">标签</string>
+    <string name="component_type_switch">开关</string>
+    <string name="component_type_radio">类型</string>
+    <string name="component_type_date">日期</string>
+    <string name="component_type_unknown">未知类型</string>
+
+    <!-- 未保存更改对话框 -->
+    <string name="unsaved_changes_title">未保存的更改</string>
+    <string name="unsaved_changes_message">您有未保存的更改，确定要退出吗？</string>
+    <string name="save_and_exit">保存并退出</string>
+    <string name="discard">不保存</string>
+
+    <!-- 图标描述（用于无障碍功能） -->
+    <string name="add_component_desc">添加组件</string>
+    <string name="arrow_right_desc">向右箭头</string>
+    <string name="drag_icon_desc">拖拽排序图标</string>
+    <string name="ic_arrow_back_desc">返回</string>
+    <string name="ic_chevron_right_desc">向右箭头</string>
+    <string name="ic_edit_desc">编辑</string>
+    <string name="ic_delete_desc">删除</string>
+    <string name="ic_add_desc">添加</string>
+    <string name="ic_income_desc">收入</string>
+    <string name="ic_expense_desc">支出</string>
+</resources>

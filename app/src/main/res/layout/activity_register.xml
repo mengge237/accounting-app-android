@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_title"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/username_hint"
+        android:inputType="textVisiblePassword"
+        android:autofillHints="username"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:padding="12dp"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_toggle_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_password_icon"
+            android:contentDescription="@string/toggle_password_content_description"
+            android:background="@android:color/transparent"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:minHeight="48dp"
+            android:hint="@string/confirm_password_hint"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:padding="12dp"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_toggle_confirm_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_password_icon"
+            android:contentDescription="@string/toggle_password_content_description"
+            android:background="@android:color/transparent"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/email_optional_hint"
+        android:inputType="textEmailAddress"
+        android:autofillHints="email"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="@string/register_button"
+        android:background="@color/button_blue"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_back_to_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_login_text"
+        android:textColor="#2196F3"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="8dp" />
+</LinearLayout>

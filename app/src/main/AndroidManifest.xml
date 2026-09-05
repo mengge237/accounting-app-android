@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ==================== 权限声明 ==================== -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 存储权限（Android 10 以下） -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <!-- ==================== Android 13+ 媒体权限 ==================== -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
+    <!-- ==================== 前台服务权限 ==================== -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- ==================== 查询声明 ==================== -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognizerIntent.ACTION_RECOGNIZE_SPEECH" />
+        </intent>
+    </queries>
+
+    <!-- ==================== 应用配置 ==================== -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstApplication"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="31">
+
+        <!-- ==================== Activity 声明 ==================== -->
+
+        <!-- 启动页面 LoginActivity -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FirstApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 注册页面 RegisterActivity -->
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/register_title"
+            android:parentActivityName=".activity.LoginActivity"
+            android:theme="@style/Theme.FirstApplication" />
+
+        <!-- 重置密码页面 ResetPasswordActivity -->
+        <activity
+            android:name=".activity.ResetPasswordActivity"
+            android:label="@string/reset_password_link"
+            android:parentActivityName=".activity.LoginActivity"
+            android:theme="@style/Theme.FirstApplication" />
+
+        <!-- 主容器页面 MainContainerActivity -->
+        <activity
+            android:name=".activity.MainContainerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FirstApplication" />
+
+        <!-- 组件管理页面 ComponentManageActivity -->
+        <activity
+            android:name=".activity.ComponentManageActivity"
+            android:label="@string/component_manage_title"
+            android:parentActivityName=".activity.MainContainerActivity"
+            android:theme="@style/Theme.FirstApplication" />
+
+        <!-- 主题设置页面 ThemeSettingsActivity -->
+        <activity
+            android:name=".activity.ThemeSettingsActivity"
+            android:label="@string/theme_settings"
+            android:parentActivityName=".activity.MainContainerActivity"
+            android:theme="@style/Theme.FirstApplication" />
+
+        <!-- ==================== Service 声明 ==================== -->
+
+        <!-- 音乐播放服务 -->
+        <service
+            android:name=".model.MusicService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback" />
+
+    </application>
+
+</manifest>

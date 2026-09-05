@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 错误提示 ==================== -->
+    <string name="username_empty_error">用户名不能为空</string>
+    <string name="password_empty_error">密码不能为空</string>
+    <string name="password_too_short">密码长度至少6位</string>
+    <string name="password_mismatch">两次输入的密码不一致</string>
+    <string name="register_failed">注册失败，请重试</string>
+    <string name="username_exists_error">用户名已存在，请使用其他用户名</string>
+    <string name="username_too_short">用户名长度至少3个字符</string>
+    <string name="email_invalid_error">邮箱格式不正确</string>
+    <string name="reset_password_developing">重置密码功能开发中</string>
+    <string name="date_end_before_start">结束日期不能早于开始日期</string>
+    <string name="login_failed">用户名或密码错误，请重试</string>
+    <string name="recipe_load_failed">加载失败，请重试</string>
+    <string name="recipe_network_error">网络错误</string>
+    <string name="recipe_favorite_failed">操作失败</string>
+    <string name="system_default_recipe">系统预设菜谱不能删除</string>
+</resources>

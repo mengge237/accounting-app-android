@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="56dp"
+    android:layout_height="56dp">
+
+    <!-- 录音时显示波纹效果 -->
+    <View
+        android:id="@+id/ripple_view"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/ripple_circle"
+        android:visibility="gone" />
+
+    <!-- 主悬浮按钮 -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_voice_float"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_microphone"
+        app:fabSize="normal"
+        app:backgroundTint="#4CAF50"
+        app:tint="#FFFFFF" />
+
+</FrameLayout>

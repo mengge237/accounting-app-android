@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 记账模块 ==================== -->
+    <string name="accounting_title">💰 记账</string>
+    <string name="income">收入</string>
+    <string name="expense">支出</string>
+    <string name="income_text">收入</string>
+    <string name="expense_text">支出</string>
+    <string name="view_chart">显示图表</string>
+    <string name="total_income">总收入</string>
+    <string name="total_expense">总支出</string>
+    <string name="balance">结余</string>
+    <string name="recent_records">最近记录</string>
+    <string name="income_trend">收支趋势图</string>
+    <string name="enter_amount">输入金额</string>
+    <string name="enter_note">备注（可选）</string>
+    <string name="amount_empty">请输入金额</string>
+    <string name="amount_placeholder">0.00</string>
+    <string name="type_label">类型</string>
+    <string name="note_label">备注</string>
+    <string name="date_label">日期</string>
+    <string name="total_income_label">总收入</string>
+    <string name="total_expense_label">总支出</string>
+    <string name="balance_label_short">结余</string>
+    <string name="income_label">收入:</string>
+    <string name="expense_label">支出:</string>
+    <string name="balance_label">结余:</string>
+
+    <!-- 模式切换 -->
+    <string name="mode_label">记账模式</string>
+    <string name="simple_mode">简洁</string>
+    <string name="full_mode">完整</string>
+    <string name="simple_mode_desc">快速记账，仅需金额和类型</string>
+    <string name="full_mode_desc">完整记账，包含分类、日期等</string>
+
+    <!-- 格式字符串 -->
+    <string name="income_format">收入: ¥%.2f</string>
+    <string name="expense_format">支出: ¥%.2f</string>
+    <string name="balance_format_text">结余: ¥%.2f</string>
+    <string name="balance_format">结余: ¥%.2f</string>
+
+    <!-- 图标描述 -->
+    <string name="income_icon_desc">收入图标</string>
+    <string name="expense_icon_desc">支出图标</string>
+    <string name="app_logo_desc">应用图标</string>
+
+    <!-- 分类名称 -->
+    <string name="category_food">餐饮</string>
+</resources>

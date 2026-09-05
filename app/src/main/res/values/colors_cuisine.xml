@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 菜系颜色 ==================== -->
+    <color name="cuisine_all">#FF6B6B</color>
+    <color name="cuisine_sichuan">#FF4444</color>
+    <color name="cuisine_cantonese">#FF8C42</color>
+    <color name="cuisine_shandong">#F9C74F</color>
+    <color name="cuisine_jiangsu">#90BE6D</color>
+    <color name="cuisine_zhejiang">#43AA8B</color>
+    <color name="cuisine_fujian">#4D908E</color>
+    <color name="cuisine_hunan">#F94144</color>
+    <color name="cuisine_anhui">#F9844A</color>
+    <color name="cuisine_western">#577590</color>
+    <color name="cuisine_japanese">#E9C46A</color>
+    <color name="cuisine_korean">#E76F51</color>
+    <color name="cuisine_other">#9C89B8</color>
+</resources>

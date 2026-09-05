@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== 财务收支颜色 ==================== -->
+    <color name="income_green">#4CAF50</color>
+    <color name="income_green_light">#81C784</color>
+    <color name="income_green_dark">#388E3C</color>
+
+    <color name="expense_red">#F44336</color>
+    <color name="expense_red_light">#EF5350</color>
+    <color name="expense_red_dark">#D32F2F</color>
+
+    <color name="balance_blue">#2196F3</color>
+    <color name="balance_blue_light">#42A5F5</color>
+    <color name="balance_blue_dark">#1E88E5</color>
+
+    <!-- ==================== 状态颜色 ==================== -->
+    <color name="success_green">#4CAF50</color>
+    <color name="success_green_light">#A5D6A7</color>
+
+    <color name="warning_orange">#FF9800</color>
+    <color name="warning_orange_light">#FFE0B2</color>
+
+    <!-- 注意：error_red 已在 colors.xml 中定义，此处不重复定义 -->
+    <color name="error_red_light">#FFCDD2</color>
+
+    <color name="info_blue">#2196F3</color>
+    <color name="info_blue_light">#BBDEFB</color>
+
+    <!-- ==================== Chip 组件颜色 ==================== -->
+    <color name="chip_bg_unchecked">#F5F5F5</color>
+    <color name="chip_unchecked_bg">#F5F5F5</color>
+
+    <!-- ==================== 按钮颜色 ==================== -->
+    <color name="button_blue">#2196F3</color>
+    <color name="button_blue_dark">#1976D2</color>
+    <color name="button_blue_light">#64B5F6</color>
+    <color name="button_orange">#FF9800</color>
+    <color name="button_orange_dark">#F57C00</color>
+    <color name="button_red">#F44336</color>
+    <color name="button_green">#4CAF50</color>
+    <color name="button_text_white">#FFFFFF</color>
+    <color name="button_text_black">#000000</color>
+</resources>

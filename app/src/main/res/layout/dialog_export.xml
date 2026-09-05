@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/export_select_range"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_all_data"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_last_3_months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_last_3_months"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_last_6_months"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_last_6_months"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_this_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_this_year"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/rb_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/export_custom_range"
+            android:padding="8dp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/custom_date_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_start_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:padding="12dp"
+            android:text="@string/export_start_date"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/export_date_to"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/tv_end_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:padding="12dp"
+            android:text="@string/export_end_date"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:background="@android:color/darker_gray"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/export_confirm"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
