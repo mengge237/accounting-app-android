@@ -1,17 +1,20 @@
 # 记账本 App（Android 前端）
 
+![lang](https://img.shields.io/badge/lang-Java-informational) ![status](https://img.shields.io/badge/status-maintained-brightgreen)
+
+
 记账本应用的 Android 客户端，配合后端 [accounting-app-backend](https://github.com/mengge237/accounting-app-backend) 使用。
 
-## ✨ 功能特性
+##  功能特性
 
-- 🔐 **用户体系**：注册 / 登录 / 找回密码（JWT 鉴权）
-- 📒 **记账核心**：账单增删改查、账本管理、收支分类
-- 📊 **统计报表**：收支统计、分类汇总、趋势视图
-- 📅 **日程提醒**：日程管理与提醒
-- 🍳 **扩展模块**：菜谱、分类（菜系）、背景图
-- 🎨 **界面定制**：主题设置、布局设置、组件管理、动态布局构建
+-  **用户体系**：注册 / 登录 / 找回密码（JWT 鉴权）
+-  **记账核心**：账单增删改查、账本管理、收支分类
+-  **统计报表**：收支统计、分类汇总、趋势视图
+-  **日程提醒**：日程管理与提醒
+-  **扩展模块**：菜谱、分类（菜系）、背景图
+-  **界面定制**：主题设置、布局设置、组件管理、动态布局构建
 
-## 🛠 技术栈
+##  技术栈
 
 | 层 | 技术 |
 |---|---|
@@ -21,7 +24,7 @@
 | 本地存储 | SQLite（含自选分类等本地数据） |
 | 构建 | Gradle（AGP），minSdk 24 / targetSdk 34 |
 
-## 📁 项目结构
+##  项目结构
 
 ```
 ├── app/
@@ -38,7 +41,7 @@
 └── gradle/
 ```
 
-## 🚀 快速开始
+##  快速开始
 
 ```bash
 # 1. Android Studio 打开项目根目录，等待 Gradle 同步
@@ -53,6 +56,6 @@
 # 4. Run ▶ 运行到模拟器/真机
 ```
 
-## 🔗 配套后端
+##  配套后端
 
 - [accounting-app-backend](https://github.com/mengge237/accounting-app-backend)：Express + MySQL + JWT 的服务端 API
