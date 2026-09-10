@@ -19,7 +19,7 @@ okhttputils = "2.6.2"
 okhttpVersion = "4.12.0"
 recyclerview = "1.3.0"
 retrofit = "3.0.0"
-swiperefreshlayout = "1.1.0"
+swiperefreshlayout = "1.2.0"
 retrofitVersion = "2.9.0"
 voskAndroid = "0.3.75"
 
